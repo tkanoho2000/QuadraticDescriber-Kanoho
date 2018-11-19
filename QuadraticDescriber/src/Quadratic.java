@@ -156,12 +156,15 @@ public class Quadratic {
 	public static double xVertex(double a, double b) {
 		return -b/(2*a);
 	}
+	
 	public static double yVertex(double a, double b, double c) {
 		double xyVertex = (a * (square(xVertex(a,b))))+(b*xVertex(a,b))+c;
 		return xyVertex;
 	}
+	
 	public static String quadrDescriber(double a, double b, double c) {
 		String describe = "Description of graph of:\n" + a + "x^2 +" + b + "x + " + c;
 		return describe;
 	}
+	
 }

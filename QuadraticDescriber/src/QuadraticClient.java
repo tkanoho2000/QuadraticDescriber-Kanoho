@@ -5,10 +5,10 @@ import java.util.Scanner;
  * version 1.0
  * By Tyler Kanoho
  */
+
 public class QuadraticClient {
 	static Scanner input = new Scanner(System.in);
 	public static void main(String[] args) {
-		//hi
 		String welcome1 = "Welcome to the quadratic scanner";
 		String welcome2 = "Provides values for coefficients a, b, and c";
 		String author = "By Tyler Kanoho";
